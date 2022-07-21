@@ -1,0 +1,41 @@
+body{
+  font-family: arial;
+  font-size: 20px;
+  margin: 0;
+  background:linear-gradient(to right bottom, #38ab5a, #031f6a);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.texts p {
+  color: black;
+  text-align: right;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.btn {
+  display:inline-block;
+ padding:0.2em 1.45em;
+ margin:0.1em;
+ border:0.15em solid #CCCCCC;
+font-size: 50px;
+ box-sizing: border-box;
+min-width: 120px;
+ text-decoration:none;
+ font-family:'Segoe UI','Roboto',sans-serif;
+ font-weight:400;
+ color:#000000;
+ background-color:#CCCCCC;
+ text-align:center;
+ position:relative;
+}
+.btn:hover{
+ border-color:#7a7a7a;
+}
+.btn:active{
+ background-color:#999999;
+}
