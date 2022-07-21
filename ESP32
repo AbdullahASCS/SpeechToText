@@ -1,0 +1,6 @@
+The steps for connecting ESP32 to a webserver is:
+1- set the esp32 chip to Soft Access Point Mode (AP).
+2- setup the SID and password for the esp32 chip.
+3- setup an arduino web server.
+4- connect to the esp32 chip through the arduino web server by using the chip's ssid and password.
+5- communicate with the esp32 chip through the arduino web server by using https requests.
